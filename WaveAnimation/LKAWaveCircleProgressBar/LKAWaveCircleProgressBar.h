@@ -23,5 +23,6 @@ typedef void (^Completion)(void);
 - (void)setProgress:(float)progress animated:(BOOL)animated;
 - (void)stopWaveRollingAnimation;
 - (void)startWaveRollingAnimation;
+- (void)setBorderColor:(UIColor *)borderColor;
 
 @end
