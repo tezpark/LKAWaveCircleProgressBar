@@ -138,6 +138,11 @@
     self.containerLayer.borderColor = borderColor.CGColor;
 }
 
+    // border color for swift
+- (void)setProgressBorderColor:(UIColor *)borderColor {
+    [self setBorderColor:borderColor];
+}
+
     // border Width
 - (void)setBorderWidth:(CGFloat)borderWidth {
     _borderWidth = borderWidth;
